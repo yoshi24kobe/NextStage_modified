@@ -83,7 +83,7 @@ nav.sp {
 /*タイトル*/
 
 #title {
-	margin-top: 20px;	
+	margin-top: 10px;	
 	color: #fff;
 }
 
@@ -91,16 +91,16 @@ nav.sp {
 	text-align: center;
 	font-weight: bold;
 	font-family:  "Hiragino Maru Gothic Pro";
-	font-size: 100px;
+	font-size: 50px;
 }
 
 #title h1{
 	width: 70%;
 	text-align: center;
-	font-size: 20px;
+	font-size: 16px;
 	border-bottom:5px #fff dashed;
 	margin: 0 auto;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 /*コンテンツ*/
@@ -112,44 +112,25 @@ nav.sp {
 
 section {
 	margin:30px auto 30px;
-	background:rgba(0,0,0,0.6);
-	border-radius:10px;
+	background-color:#fff;
+	border-radius:5px;
+	border: 10px solid rgba(255,255,255,0.1);
+	box-shadow:0px 0px 10px rgba(0,0,0,0.3);
 	height: auto;
-	width: 60%;
-	color: #fff;
-	margin-top: 80px;
-	padding: 10px;
+	width: 75%;
 }
 
 section h2 {
 	text-align: center;
 	font-size: 24px;
-	padding: 10px
-}
-
-.content_inside {
-	width: 75%;
-	position: relative;
-	margin: 10px auto 0;
-}
-
-.content_inside p:nth-of-type(2){
-	width: 100%;
-	padding-top: 5px;
-	height: 24px;
-}
-
-#top {
-	margin-top: -35px;
-	padding-top: 35px;
 }
 
 #content1,#content2,#content3 {
 	display: block;
-	height: 100%;
-	margin-top: -35px;
-	padding-top: 35px;
+	margin-top: -45px;
+	padding-top: 45px;
 }
+
 
 /*フッター*/
 footer{
@@ -221,9 +202,6 @@ footer p {
 	width: 95px;
 	font-size: 13px;
 	line-height: 24px;
-	position: absolute;
-	bottom: 0;
-	right: 0;
 	text-align: center;
 }
 
