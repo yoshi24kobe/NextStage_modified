@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>NextStage</title>
+	<meta name="keywords" content="フリーランス,勉強法,プログラミング,言語,就職">
+	<meta name="description" content="「プログラミングを学ぶなら生涯仕事に困らないことを私が保障しよう。」Facebook元役員の言葉通りネットは必要不可欠に。プログラミング「初心者」の方を応援します！プログラミングの可能性、熱い言語と勉強法、就職先、年収までご紹介いたします。">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+<body id="top">
+<div id="body_background">
+</div>
+<header>
+	<nav class="pc">
+		<ul class="clearfix">
+			<li><a href="#top"><i class="fa fa-home" aria-hidden="true"></i>トップ</a></li>
+			<li><a href="#content1"><i class="fa fa-leaf" aria-hidden="true"></i>プログラミングの可能性</a></li>
+			<li><a href="#content2"><i class="fa fa-table" aria-hidden="true"></i>注目言語</a></li>
+			<li><a href="#content3"><i class="fa fa-flag" aria-hidden="true"></i>働き方</a></li>
+		</ul>
+	</nav>
+	<nav class="sp">
+		<ul class="clearfix" id="dropmenu">
+			<li class="nav_top"><a href="#top"><i class="fa fa-home" aria-hidden="true"></i>トップ</a></li>
+			<li class="nav_menu"><a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+				<ul>
+					<li><a href="#content1"><i class="fa fa-leaf" aria-hidden="true"></i>プログラミングの可能性</a></li>
+					<li><a href="#content2"><i class="fa fa-table" aria-hidden="true"></i>注目言語</a></li>
+					<li><a href="#content3"><i class="fa fa-flag" aria-hidden="true"></i>働き方</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	<div id="title">
+		<p>Next stage</p>
+		<h1>就職？フリーランス？<br>プログラミングで将来を考えてる学生必見！</h1>
+	</div>
+</header>
+<div id="contents">
+	<section><div id="content1">
+		<h2>プログラミングの可能性</h2>
+		<p>プログラミングにはどんな可能性が秘められているのだろうか。<br>興味を持つことはあるが、決められない。そんな方々がたくさんいることでしょう。<br>では、プログラミングの世界はどの様な世界なのでしょう。</p>
+		<p class="link_more"><a href="./contents/content1.html">もっとみる<i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+	</div></section>
+	<section><div id="content2">
+		<h2>注目言語5選!!</h2>
+		<p>今の自分のスキル・・・自分のこれからは？<br>これから自分の進む道を決める際、何と言ってもスキルがモノを言います。<br>様々な言語がある中から選ばなければいけません。<br>その中でもメジャーなものをご紹介します。</p>
+		<p class="link_more"><a href="./contents/content2.html">もっとみる<i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+	</div></section>
+	<section class="border_footer"><div id="content3">
+		<h2>就職?フリーランス?あなたは?</h2>
+		<p>今の自分スキルはどう活かしていけるだろうか。<br>就職もフリーランスも給料とか植生とかどうなっているのだろう？<br>わからないことがたくさん。<br>少しずつIT業界のことを知っていきましょう。ちょっとした相場をご紹介。</p>
+		<p class="link_more"><a href="./contents/content3.html">もっとみる<i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+	</div></section>
+</div><!-- #contents -->
+<div class="sns_link">
+	<p><a href="https://ja-jp.facebook.com/" class="fb"><i class="fa fa-facebook-official" aria-hidden="true"></i>Facebook</a></p>
+	<p><a href="https://twitter.com/" class="twi"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a></p>
+</div><!-- .sns_link -->
+
+<footer>
+	<p>プログラミングは世界を変える！</p>
+</footer>
+
+<script>
+	$(function(){
+		$('li.nav_menu').on('click',function(){
+			$('.nav_menu ul li').toggleClass("hamburger");
+		});
+	})
+</script>
+</body>
+</html>
