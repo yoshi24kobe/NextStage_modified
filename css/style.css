@@ -192,6 +192,11 @@ footer p {
 	border-radius: 0px 7px 7px 0;
 }
 
+.sns_link a:hover {
+	text-decoration: none;
+	color: white;
+}
+
 .sns_link .fb {
 	background: #428bca;
 }
