@@ -80,6 +80,35 @@ nav.sp {
 	display: none;
 }
 
+/*タイトル*/
+
+#title {
+	margin-top: 20px;	
+	color: #fff;
+}
+
+#title p {
+	text-align: center;
+	font-weight: bold;
+	font-family:  "Hiragino Maru Gothic Pro";
+	font-size: 100px;
+}
+
+#title h1{
+	text-align: center;
+	font-size: 20px;
+	border-bottom:5px #fff dashed;
+	margin: 0 170px;
+	padding-bottom: 20px;
+}
+
+/*コンテンツ*/
+#contents {
+	padding-top: 35px;
+	padding-bottom: 20px;
+	width: 100%;
+}
+
 /*フッター*/
 footer{
 	height: 20px;
@@ -96,4 +125,81 @@ footer p {
 	color: white;
 	font-size: 12px;
 	line-height: 20px;
+}
+
+/*snsリンク*/
+.sns_link {
+	position: fixed;
+	top: 40%;
+	left: 0;
+}
+
+.sns_link p{
+	height: 30px;
+	width: 100px;
+	font-size: 14px;
+	line-height: 30px;	
+	z-index: 999;
+}
+
+.sns_link a {
+	text-decoration: none;
+	display: block;
+	color: white;
+	line-height: 30px;
+	border-radius: 0px 7px 7px 0;
+}
+
+.sns_link .fb {
+	background: #428bca;
+}
+
+.sns_link .fb:hover {
+	background: #3071a9
+}
+
+.sns_link .twi {
+	background: #5bc0de;
+}
+
+.sns_link .twi:hover {
+	background: #31b0d5;
+}
+
+.sns_link .fa {
+	padding-left: 7px;
+}
+
+/*font-awesome*/
+.fa {
+	padding-right: 5px;
+}
+
+.link_more {
+	width: 85px;
+	float: right;
+	font-size: 13px;
+	line-height: 24px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+.link_more a{
+	text-decoration: none;
+	color: blue;
+	display: block;
+	background: #d9534f;
+	color: white;
+	border-radius: 5px;
+	line-height: 24px;
+}
+
+.link_more a:hover {
+	background: #c9302c;
+}
+
+.link_more .fa {
+	padding-right: 0;
+	padding-left: 3px;
 }
