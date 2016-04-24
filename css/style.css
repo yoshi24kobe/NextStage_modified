@@ -109,6 +109,41 @@ nav.sp {
 	width: 100%;
 }
 
+section {
+	margin:30px auto 30px;
+	background:rgba(0,0,0,0.6);
+	border-radius:5px;
+	background-clip: padding-box;
+	height: auto;
+	width: 70%;
+	color: #fff;
+	margin-top: 80px;
+	padding: 10px;
+}
+
+section h2 {
+	text-align: center;
+	font-size: 24px;
+	padding: 10px
+}
+section p{
+	padding:20px 20px 20px 40px;
+
+}
+
+#top {
+	margin-top: -35px;
+	padding-top: 35px;
+}
+
+#content1,#content2,#content3 {
+	display: block;
+	position: relative;
+	height: 100%;
+	margin-top: -35px;
+	padding-top: 35px;
+}
+
 /*フッター*/
 footer{
 	height: 20px;
@@ -176,18 +211,18 @@ footer p {
 }
 
 .link_more {
-	width: 85px;
+	width: 90px;
 	float: right;
 	font-size: 13px;
 	line-height: 24px;
 	position: absolute;
 	bottom: 10px;
 	right: 10px;
+	text-align: center;
 }
 
 .link_more a{
 	text-decoration: none;
-	color: blue;
 	display: block;
 	background: #d9534f;
 	color: white;
