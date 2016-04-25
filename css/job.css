@@ -1,0 +1,42 @@
+ul {
+    list-style: none;
+    font-size: 14px;
+}
+
+dt,dd{
+    display: inline-block;
+    font-size: 14px;
+}
+
+/*サブタイトル*/
+.sub_title{
+    position: relative;
+    color: #111;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 7px 7px 7px 23.8px;
+    border-bottom: 3px solid #B92A2C;
+}
+
+.sub_title:before{
+    content: "";
+    position: absolute;
+    background: #d48789;
+    top: 0;
+    left: 5.6px;
+    height: 12px;
+    width: 12px;
+    transform: rotate(45deg);
+}
+ 
+.sub_title:after{
+    content: "";
+    position: absolute;
+    background:#d26466;
+    top: 14px;
+    left: 0;
+    height: 8px;
+    width: 8px;
+    transform: rotate(15deg);
+}
