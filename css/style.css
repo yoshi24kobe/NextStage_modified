@@ -115,7 +115,7 @@ section {
 	background:rgba(0,0,0,0.6);
 	border-radius:10px;
 	height: auto;
-	width: 60%;
+	width: 53%;
 	color: #fff;
 	margin-top: 80px;
 	padding: 10px;
@@ -128,7 +128,7 @@ section h2 {
 }
 
 .content_inside {
-	width: 75%;
+	width: 80%;
 	position: relative;
 	margin: 10px auto 0;
 	padding-bottom: 28px;
