@@ -8,6 +8,10 @@ dt,dd{
     font-size: 14px;
 }
 
+p {
+    font-size: 14px;
+}
+
 /*サブタイトル*/
 .sub_title{
     position: relative;
@@ -39,4 +43,108 @@ dt,dd{
     height: 8px;
     width: 8px;
     transform: rotate(15deg);
+}
+
+/*コンテンツ3*/
+#content3 > p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+/*ジョブ*/
+.job {
+    width: 90%;
+}
+
+.job h4 {
+    border-left: 3px solid #00d;
+    padding-left: 7px;
+    font-size: 20px;
+}
+
+.get_job div p:nth-of-type(1) {
+    padding-left: 5%;
+}
+
+.get_job dl {
+    margin-left: 14px;
+    margin-bottom: 7px;
+}
+
+.get_job dt{
+    margin-left: 10px;
+}
+
+.freelance > p:nth-of-type(1) {
+    padding-left: 5%;
+    margin-bottom: 10px;
+}
+
+.freelance dl {
+    margin-left: 14px;
+    margin-bottom: 7px;
+}
+
+.freelance dt{
+    margin-left: 10px;
+}
+
+.freelance h5 {
+    font-weight: bold;
+}
+
+.reference {
+    float: left;
+}
+
+.freelance_link {
+    float: left;
+}
+
+.freelance:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*リンク　リファレンス*/
+.link_reference {
+    border: 1px solid #4871a9;
+}
+
+
+.link_reference a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #4871a9;
+}
+
+.link_reference a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link_reference{
+    width: 200px;
+    margin-left: auto;
+}
+
+.link_reference span {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.link_layout1 {
+    width: 380px;
+}
+
+.link_layout2 {
+    width: 420px;
+}
+
+.link_layout3{
+    margin-left: 40px;
+    margin-right: auto;
 }
