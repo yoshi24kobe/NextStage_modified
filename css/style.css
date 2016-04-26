@@ -111,13 +111,12 @@ nav.sp {
 }
 
 section {
-	margin:30px auto 30px;
+	margin:80px auto 30px;
 	background:rgba(0,0,0,0.6);
 	border-radius:10px;
 	height: auto;
 	width: 53%;
 	color: #fff;
-	margin-top: 80px;
 	padding: 10px;
 }
 
@@ -244,4 +243,116 @@ footer p {
 	padding-right: 0;
 	padding-left: 3px;
 }
+
+
+/*レスポンシブデザイン*/
+@media all and (max-width: 520px){
+	#body_background {
+		margin-top: 30px;
+	}
+
+	nav.pc {
+		display: none;
+	}
+
+	nav.sp {
+		display:block;
+	}
+
+	nav {
+		height: 30px;
+	}
+	
+	#title h1{
+		width: 70%;
+		margin:0 auto;
+		font-size: 16px;
+	}
+
+	#title p{
+		font-size: 50px;
+	}
+
+	#dropmenu {
+		list-style: none;
+		width: 100%;
+		height: 30px;
+		background: #fe9e1a;
+	}
+
+	#dropmenu li.nav_top{
+		float: left;
+		width: 100px;
+		text-align: center;
+		border-right: 1px solid #e88432;
+		height: 30px;
+	}
+
+	#dropmenu li.nav_menu {
+		position: relative;
+		width: 100px;
+		float: right;
+		text-align: center;
+		border-left: 1px solid #e88432;
+		height: 30px;
+	}
+
+	#dropmenu li a {
+		display: block;
+		color: white;
+		background: #fe9e1a;
+		font-size: 14px;
+		line-height: 30px;
+		text-decoration: none;
+	}
+
+	#dropmenu li:hover > a {
+		background: #e88432;
+	}
+
+	#dropmenu li ul {
+		list-style: none;
+		position: absolute;
+		top: 100%;
+		right: 0;
+	}	
+
+
+	#dropmenu li ul li{
+		overflow: hidden;
+		width: 220px;
+		height: 0;
+		text-align: left;
+		transition: .2s;
+	}
+
+	#dropmenu li ul li a {
+		padding-left: 20px;
+	}
+
+	#dropmenu li ul li.hamburger {
+		overflow: visible;
+		height: 30px;
+	}
+
+	#contents {
+		padding-top: 30px;
+	}
+
+	/*コンテンツ*/
+	section {
+		margin-top: 50px;
+		width: 75%;
+	}
+
+	section h2 {
+		font-size: 20px;
+	}
+
+
+
+
+
+
+}	
 
