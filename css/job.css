@@ -54,13 +54,18 @@ p {
 
 /*ジョブ*/
 .job {
-    width: 90%;
+    width: 100%;
 }
 
 .job h4 {
     border-left: 3px solid #00d;
     padding-left: 7px;
     font-size: 20px;
+}
+
+.get_job div {
+    width: 95%;
+    margin: 0 auto;
 }
 
 .get_job div p:nth-of-type(1) {
@@ -106,6 +111,11 @@ p {
     content: "";
     display: block;
     clear: both;
+}
+
+/*比較 .compare*/
+.compare {
+
 }
 
 /*リンク　リファレンス*/
