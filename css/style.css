@@ -310,7 +310,7 @@ footer p {
 		background: #e88432;
 	}
 
-	#dropmenu li ul {
+	#dropmenu ul {
 		list-style: none;
 		position: absolute;
 		top: 100%;
@@ -318,7 +318,7 @@ footer p {
 	}	
 
 
-	#dropmenu li ul li{
+	#dropmenu ul li{
 		overflow: hidden;
 		width: 220px;
 		height: 0;
@@ -326,11 +326,11 @@ footer p {
 		transition: .2s;
 	}
 
-	#dropmenu li ul li a {
+	#dropmenu ul li a {
 		padding-left: 20px;
 	}
 
-	#dropmenu li ul li.hamburger {
+	#dropmenu ul li.hamburger {
 		overflow: visible;
 		height: 30px;
 	}
@@ -339,6 +339,24 @@ footer p {
 		padding-top: 30px;
 	}
 
+	.sns_sp {
+		width: 35px;
+		float: right;
+	}
+
+	.sns_sp i{
+		width: 35px;
+		padding: 0;
+		line-height: 30px;
+	}
+
+	.sns_sp .fa:before {
+		padding-left: 11px;
+	}
+
+	.sns_link {
+		display: none;
+	}
 	/*コンテンツ*/
 	section {
 		margin-top: 50px;
