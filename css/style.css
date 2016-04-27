@@ -346,9 +346,12 @@ footer p {
 	}
 
 	section h2 {
-		font-size: 20px;
+		font-size: 18px;
 	}
 
+	.content_inside p {
+		font-size: 14px;
+	}
 
 
 
