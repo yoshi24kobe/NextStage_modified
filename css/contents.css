@@ -357,4 +357,9 @@ footer p {
 		font-size: 18px;
 	}
 
+	#content1,#content2,#content3 {
+	padding-top: 40px;
+	margin-top: -40px;
+}
+
 }

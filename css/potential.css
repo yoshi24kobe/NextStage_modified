@@ -1,0 +1,79 @@
+#content1 p {
+	font-size: 15px;
+}
+
+.link_more a{
+	font-size: 13px;
+}
+
+.sub_head {
+	text-align: left;
+    position: relative;
+    color: #111;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 7px 7px 7px 23.8px;
+    border-bottom: 3px solid #B92A2C;
+}
+ 
+.sub_head:before{
+    content: "";
+    position: absolute;
+    background: #d48789;
+    top: 0;
+    left: 5.6px;
+    height: 12px;
+    width: 12px;
+    transform: rotate(45deg);
+}
+ 
+.sub_head:after{
+    content: "";
+    position: absolute;
+    background:#d26466;
+    top: 14px;
+    left: 0;
+    height: 8px;
+    width: 8px;
+    transform: rotate(15deg);
+}
+
+#content1 p:nth-of-type(2) {
+	width: 95%;
+	line-height: 27px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#content1 p:last-of-type {
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 30px;
+}
+
+/*リンク　リファレンス*/
+.link_reference {
+	width: 150px;
+    margin: 0 auto 10px;
+    border: 1px solid #4871a9;
+}
+
+
+.link_reference a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #4871a9;
+}
+
+.link_reference a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link_reference span {
+    margin-left: 5px;
+    margin-right: 5px;
+}
